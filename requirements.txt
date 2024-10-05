@@ -64,3 +64,5 @@ validators==0.20.0
 watchdog==2.2.1
 wheel
 zipp==3.11.0
+libxml2-dev
+libxslt-dev
