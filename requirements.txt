@@ -7,7 +7,7 @@ certifi==2024.8.30
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-contourpy==1.1.1
+contourpy==1.0.7  # 업그레이드 후 numpy >= 1.26.0을 사용할 수 있습니다.
 cycler==0.12.1
 finance-datareader==0.9.94
 fonttools==4.54.1
@@ -25,7 +25,7 @@ markupsafe==2.1.5
 matplotlib==3.7.5
 mdurl==0.1.2
 narwhals==1.9.0
-numpy==1.24.4
+numpy>=1.26.0  # 업그레이드된 버전 필요
 packaging==24.1
 pandas==2.0.3
 pillow==10.4.0
